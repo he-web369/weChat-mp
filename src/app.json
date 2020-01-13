@@ -1,0 +1,39 @@
+{
+    "pages": [
+      "pages/personal/main",
+      "pages/search-book/main",
+      "pages/book-index/main",
+      "pages/book-list/main",
+      "pages/index/main",
+      "pages/book-detail/main"
+    ],
+    "window": {
+      "backgroundTextStyle": "light",
+      "navigationBarBackgroundColor": "#CD5555",
+      "navigationBarTitleText": "WeChat mp",
+      "navigationBarTextStyle": "black"
+    },
+    "requiredBackgroundModes":["audio"],
+    "tabBar":{
+      "list":[
+        {
+          "pagePath":"pages/book-index/main",
+          "text":"图书列表",
+          "iconPath":"/static/imgs/tabs/book.png",
+          "selectedIconPath":"/static/imgs/tabs/book-active.png"
+        },
+        {
+          "pagePath":"pages/personal/main",
+          "text":"个人信息",
+          "iconPath":"/static/imgs/tabs/me.png",
+          "selectedIconPath":"/static/imgs/tabs/me-active.png"
+        },
+        {
+          "pagePath":"pages/search-book/main",
+          "text":"搜索图书",
+          "iconPath":"/static/imgs/tabs/other.png",
+          "selectedIconPath":"/static/imgs/tabs/other-active.png"
+        }
+      ]
+    }
+}
